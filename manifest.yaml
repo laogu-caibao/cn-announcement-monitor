@@ -1,0 +1,5 @@
+slug: laogu-announcements
+display_name: A股财报与公告盯梢
+description: A股财报与公告盯梢：维护关注清单，定期抓取新公告并输出中文摘要推送；支持定期报告、业绩预告、分红、定增、减持等类型分级处理。
+version: 1.0.1
+author: 老谷拆财报
