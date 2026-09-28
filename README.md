@@ -61,3 +61,6 @@ A股财报与公告盯梢 skill：维护关注清单，定期抓取新公告并�
 |---|---|
 | ![视频号二维码](docs/qrcode-shipinhao.jpg) | ![抖音二维码](docs/qrcode-douyin.png) |
 | 扫一扫，关注视频号 | 抖音号：gubaobao22 |
+
+> 作者声明：个人观点，仅供参考，不构成投资建议。
+---
