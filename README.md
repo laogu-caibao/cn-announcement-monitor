@@ -47,6 +47,25 @@ https://github.com/laogu-caibao/laogu-announcements/archive/refs/heads/main.zip
 - 回复一律中文；不做买卖推荐
 
 ---
+## English
+
+**laogu-announcements — Filing watcher.** Maintains a watchlist of A-share companies, fetches new announcements (periodic reports, previews, dividends, placements, stake reductions) and pushes Chinese summaries. Install: `npx skills add laogu-caibao/laogu-announcements`.
+
+## FAQ
+
+**Q：laogu-announcements 有什么用？**
+适合的场景：盯一批公司的公告，有新披露（定期报告、预告、分红、定增、减持）时自动抓取并出中文摘要。
+
+**Q：数据可靠吗？会荐股吗？**
+数字必须来自可核验的公开来源（上市公司公告、交易所公开数据、公开网页），取不到就标「未核验」，绝不编造；只做结构化整理与解读，不构成投资建议。
+
+**Q：怎么安装？支持哪些 AI 平台？**
+```bash
+npx skills add laogu-caibao/laogu-announcements
+```
+平台中立 Markdown，Claude Code、Codex、豆包智能体、Workbuddy、扣子 Coze、Trae 等环境均可用；数据能力可用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)（`uvx laogu-mcp`）一次装齐。更多 skill 见[老谷拆财报组织主页](https://github.com/laogu-caibao)。
+---
+
 ## 出品
 
 **老谷拆财报** —— 以数据为刃，剖市场真相
