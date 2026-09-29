@@ -4,6 +4,27 @@
 
 A股财报与公告盯梢 skill：维护关注清单，定期抓取新公告并输出中文摘要推送；支持定期报告、业绩预告、分红、定增、减持等类型分级处理。
 
+## 一键安装
+
+仓库地址（点击复制）：
+
+`https://github.com/laogu-caibao/laogu-announcements`
+
+**方式一：克隆**
+
+```bash
+git clone https://github.com/laogu-caibao/laogu-announcements.git
+```
+
+**方式二：下载 ZIP**
+
+https://github.com/laogu-caibao/laogu-announcements/archive/refs/heads/main.zip
+
+**导入使用**
+
+- Claude Code / Muse：把仓库中的 `SKILL.md` 放到 `~/.claude/skills/laogu-announcements/` 下即可调用。
+- 豆包智能体 / Workbuddy 等：按各平台的 skill 上传流程导入 `SKILL.md`。
+- 一次装好全部 16 个：用 [laogu-mcp](https://github.com/laogu-caibao/laogu-mcp)，`uvx laogu-mcp` 一键安装。
 ## 文件结构
 
 - `SKILL.md` — skill 主流程（平台中立，可导入豆包智能体 / Workbuddy 等支持定时任务的环境）
